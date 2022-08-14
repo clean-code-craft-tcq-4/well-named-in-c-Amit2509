@@ -38,7 +38,7 @@ void print_color_coding_reference_manual()
     ColorPair colorPair;
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
     
-    for(i = 0; i < numberOfMajorColors*numberOfMinorColors; i++) 
+    for(int i = 0; i < numberOfMajorColors*numberOfMinorColors; i++) 
     {
         colorPair = GetColorFromPairNumber(i+1);        
         ColorPairToString(&colorPair, colorPairNames);
