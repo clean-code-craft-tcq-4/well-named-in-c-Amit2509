@@ -37,7 +37,7 @@ void print_color_coding_reference_manual()
     int i = 0, j = 0;
     for(i = 0; i < numberOfMajorColors; i++) {
         for(j = 0; j < numberOfMinorColors; j++) {
-            printf("%d | %s | %s\n", i * 5 + j + 1, majorColor[i], minorColor[j]);
+            printf("%d | %s | %s\n", i * 5 + j + 1, MajorColorNames[i], MinorColorNames[j]);
         }
     }
 }
